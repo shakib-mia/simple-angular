@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    height: 97vh;
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+input[type="button"] {
+    border: 0;
+    padding: 10px 60px;
+    background-color: rgb(0, 115, 255);
+    color: white;
+    font-size: 5rem;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+input[ng-value="num"]{
+    font-size: 5rem;
+    border: 0;
+    width: 20%;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(1, 91, 201);
+}
+
+span{
+    padding: 10px 22px;
+}
+
+body div {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    border-radius: 2rem;
+}
